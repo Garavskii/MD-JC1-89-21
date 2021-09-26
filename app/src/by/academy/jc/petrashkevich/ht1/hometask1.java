@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class hometask1 {
  //int x,y;
   public static class Welcome {// creating new class(создание второго класса)
-    public Welcome(){ // creating new construktor ( создание нового конструктора)
-      System.out.println("Hi! I am constructor!");
+    public Welcome(int i){ // creating new construktor ( создание нового конструктора)
+      System.out.println("Hi! I am constructor! Enter "+(i+1)+" pair of integrs");
     }
     public static int result(int x,int y) { // метод вычисления суммы произвеедения и суммы введенных величин
        int z= (x+y)+x*y;
@@ -21,15 +21,18 @@ public class hometask1 {
   public static void main(String[] args) {
     Scanner in=new Scanner (System.in);
     System.out.println("Congratulations! You are in JAVA-paradise!");
-     /* Welcom s1 = */ new Welcome();// вызов конструктора приветсвия
-   System.out.print("Input first integr:  "); // ввод первой переменной с терминала
-     int x= in.nextInt(  );
-    System.out.print("Input second integr: ");// ввод второй переменной с терминала
-    int y=in.nextInt();
-    //int z = result(x, y);// вызов метода расчета суммы произведения и суммы
+    for (int i=0; i<3; i++){
+      /* Welcom s1 = */
+      new Welcome(i);// вызов конструктора приветсвия
+      System.out.print("Enter the first integr:  "); // ввод первой переменной с терминала
+      int x = in.nextInt();
+      System.out.print("Enter the second integr: ");// ввод второй переменной с терминала
+      int y = in.nextInt();
+      //int z = result(x, y);// вызов метода расчета суммы произведения и суммы
 
-    System.out.println("Result: " + result(x, y));
-    replace(x,y); // вызов метода замены местами переменных
+      System.out.println("Result: " + result(x, y));
+      replace(x, y); // вызов метода замены местами переменных
+    }
     }
   }
 }
