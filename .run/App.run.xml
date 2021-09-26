@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="App" type="Application" factoryName="Application" nameIsGenerated="true">
-    <option name="MAIN_CLASS_NAME" value="by.academy.jc.App" />
+    <option name="MAIN_CLASS_NAME" value="by.academy.jc.Zhenya.ht1.HomeTask1" />
     <module name="MD-JC1-89-21" />
     <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     <method v="2">
