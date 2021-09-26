@@ -3,7 +3,7 @@ package by.academy.jc.sandris_h.ht1;
 public class Main {
     public static void main(String[] args) {
         ArithmeticOperation arOperation = new ArithmeticOperation();
-        for (int i = 0; i <= 3; i++) {
+        for (int i = 0; i < 3; i++) {
             int x = (int) (Math.random() * 9 + 1);
             int y = (int) (Math.random() * 9 + 1);
 
