@@ -46,4 +46,8 @@ public class WorkingWithNumbers {
     public String getName(){
         return name;
     }
+
+    public int getRandomNumber(){
+        return (int) (Math.random()*100);
+    }
 }

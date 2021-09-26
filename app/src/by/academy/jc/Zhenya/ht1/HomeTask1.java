@@ -10,8 +10,8 @@ public class HomeTask1 {
         System.out.println("\n--- One method ---");
 
         for (int i = 0; i < 3; i++) {
-            int a = (int) (Math.random() * 100);
-            int b = (int) (Math.random() * 100);
+            int a = test.getRandomNumber();
+            int b = test.getRandomNumber();
 
             test.printNumbers(a, b);
             test.printResult(test.sumNumbersPlusCompositionNumbers(a, b));
@@ -20,13 +20,12 @@ public class HomeTask1 {
         System.out.println("\n--- Two method ---");
 
         for (int i = 0; i < 3; i++) {
-            int a = (int) (Math.random() * 100);
-            int b = (int) (Math.random() * 100);
+            int a = test.getRandomNumber();
+            int b = test.getRandomNumber();
 
             test.printNumbers(a,b);
             System.out.println("Swap :");
             test.swapNumbers(a,b);
         }
-
     }
 }
