@@ -1,0 +1,19 @@
+package by.academy.jc.selyzicky.ht1;
+
+public class copy {
+     public static void main(String[] args) {
+          System.out.println("Hello world");
+     exercise x=new exercise();
+     sum c=new sum();
+     variables b=new variables();
+     System.out.println(x);
+     System.out.println(c);
+     System.out.println(b);
+
+
+     x.variables (10,20);
+     x.variables (2,3);
+     x.variables (5,9)
+     }
+
+}
