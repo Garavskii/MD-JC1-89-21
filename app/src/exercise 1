@@ -1,0 +1,28 @@
+package by.academy.jc.selyzicky.ht1;
+
+public class exercise {
+    public static void main(String[] args) {
+        System.out.println("Hello world");
+    }
+
+
+    public class sum {
+        public void main (String[]args){
+            int x = 3;
+            int y = 4;
+            int z = x + y;
+            int w = x * y;
+            System.out.println(z + w);
+        }
+    }
+
+
+
+    public void variables (int a,int b){
+            b = b - a;
+            a = a + b;
+            b = a - b;
+            System.out.printf("a = %d b = %d\n", a, b);
+        }
+    }
+}
